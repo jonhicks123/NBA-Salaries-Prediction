@@ -19,10 +19,14 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="games" placeholder="Games Played" required="required" />
-        <input type="text" name="pts" placeholder="Total Points" required="required" />
-
-        <button type="submit" class="btn">Predict</button>
+    	<input type="text" name="ppg" placeholder="Points per Game" required="required" />
+        <input type="text" name="mpg" placeholder="Minutes per Game" required="required" />
+        <input type="text" name="apg" placeholder="Assist per Game" required="required" />
+        <input type="text" name="spg" placeholder="Steals per Game" required="required" />
+        <input type="text" name="bpg" placeholder="Blocks per Game" required="required" />
+        <input type="text" name="ws" placeholder="Total Win Shares" required="required" />
+        <input type="text" name="age" placeholder="Age" required="required" />
+      <button type="submit" class="btn">Predict</button>
     </form>
 
    <br>

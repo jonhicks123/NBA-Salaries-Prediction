@@ -52,6 +52,6 @@ link: *https://public.tableau.com/profile/fernando.flores2809#!/vizhome/NBA_Stat
 
 #### Data Sources
 
-*https://www.kaggle.com/aishjun/nba-salaries-prediction-in-20172018-season*
-*https://www.kaggle.com/drgilermo/nba-players-stats*
+- *https://www.kaggle.com/aishjun/nba-salaries-prediction-in-20172018-season*
+- *https://www.kaggle.com/drgilermo/nba-players-stats*
 

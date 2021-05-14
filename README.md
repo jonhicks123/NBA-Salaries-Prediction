@@ -34,10 +34,24 @@ The app.py file uses flask to set up two routes for the web page; the first bein
 ### Deployment
 
 The app is deployed with heroku, as it can be connected directly via github using flask in the app.py.
-It can be accessed by clicking on nba-salaries-prediction under the environments section of this repository, or by this link: https://nba-salaries-prediction.herokuapp.com/
+It can be accessed by clicking on nba-salaries-prediction under the environments section of this repository, or by this link: *https://nba-salaries-prediction.herokuapp.com/*
 
-## Tableau Workbook
+### Tableau Workbook
 
 The workbook can be downloaded from this repository, titled *NBA_Stats.twbx*
 
-link: https://public.tableau.com/profile/fernando.flores2809#!/vizhome/NBA_Stats_16204195758970/NBA2017-2018SeasonStats
+link: *https://public.tableau.com/profile/fernando.flores2809#!/vizhome/NBA_Stats_16204195758970/NBA2017-2018SeasonStats*
+
+#### Tools/Programs
+
+- Tableau
+- Pandas, Numpy, os, Matplotlib, Pickle, Sklearn
+- Python, Flask
+- HTML/CSS
+- Heroku
+
+#### Data Sources
+
+*https://www.kaggle.com/aishjun/nba-salaries-prediction-in-20172018-season*
+*https://www.kaggle.com/drgilermo/nba-players-stats (to extract the pts column)*
+
